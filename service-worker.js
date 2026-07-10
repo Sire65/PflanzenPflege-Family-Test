@@ -1,4 +1,4 @@
-const CACHE='pflanzenpflege-v0-2-5';
+const CACHE='pflanzenpflege-v0-2-6';
 const ASSETS=[
   "./",
   "./index.html",
