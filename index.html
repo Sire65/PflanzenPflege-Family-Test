@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>PflanzenPflege · V0.2.6</title>
+<title>PflanzenPflege · V0.2.9</title>
 <meta name="theme-color" content="#2f7d3f">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -15,7 +15,7 @@
 
 <style id="pf-inline-css-v024">
 
-/* ===== Consolidated inline CSS V0.2.6 ===== */
+/* ===== Consolidated inline CSS V0.2.9 ===== */
 :root{--bg:#f3f7f4;--panel:#fff;--panel2:#edf5ef;--primary:#235b3a;--primaryDark:#163c28;--accent:#d0a23b;--text:#1f2933;--muted:#667085;--border:#ccd8cf;--required:#fff4d8;--active:#e2f1ff;--success:#d8f3dc;--warn:#fff3cd;--err:#f8d7da;--info:#dbeafe;--sidebar:270px;--header:60px;--bottom:58px;--message:30px;--status:26px}
 *{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:var(--bg);overflow:hidden}.app{height:100vh;display:grid;grid-template-columns:var(--sidebar) 1fr;grid-template-rows:var(--header) 1fr var(--bottom) var(--message) var(--status)}.header{grid-column:1/3;display:flex;align-items:center;gap:10px;background:var(--primary);color:#fff;padding:0 10px;z-index:8;white-space:nowrap}.program{font-weight:800}.version{min-width:58px;height:22px;border-radius:999px;background:#9cc6aa;border:1px solid #ffffff99;display:inline-flex;align-items:center;justify-content:center;padding:0 9px;font-size:11px;font-weight:800;color:#102a18}.greet{line-height:1.15}.greet .main{font-weight:800;font-size:14px}.greet .date{font-size:11px;opacity:.92}.pinboard{display:flex;gap:8px;flex:1;overflow:hidden}.pin{padding:7px 10px;border-radius:9px;background:var(--success);color:#123;font-size:12px;box-shadow:0 2px 8px #0002;max-width:420px;overflow:hidden;text-overflow:ellipsis}.clock{font-family:Consolas,monospace;color:#43ff64;font-weight:bold;background:#0009;border-radius:8px;padding:6px 9px}.head-btn{height:34px;min-width:34px;border:1px solid #fff7;background:#ffffff18;color:#fff;border-radius:9px;cursor:pointer}.sidebar{grid-row:2/3;background:var(--primaryDark);color:#fff;position:relative;z-index:7;display:flex;flex-direction:column}.side-controls{display:grid;grid-template-columns:repeat(5,36px);gap:8px;padding:8px 10px}.side-btn{width:36px;height:34px;border:1px solid #fff5;background:#ffffff12;color:#fff;border-radius:8px;cursor:pointer}.side-title{font-weight:800;padding:0 10px 6px}.info-box{margin:0 10px 10px;border:1px solid #fff5;border-radius:10px;padding:9px;background:#ffffff0e;font-size:12px}.quick-icons{display:grid;grid-template-columns:repeat(5,36px);gap:8px;padding:0 10px 10px}.quick{width:36px;height:34px;border:1px solid #fff5;border-radius:8px;background:#ffffff10;display:flex;align-items:center;justify-content:center;cursor:pointer}.divider{height:1px;background:#ffffff33;margin:7px 10px}.nav-scroll{overflow-y:auto;min-height:0;padding-bottom:25px}.nav-item{padding:9px 14px;display:flex;align-items:center;gap:9px;cursor:pointer}.nav-item:hover,.nav-item.active{background:#ffffff1c}.nav-item.active{border-left:4px solid var(--accent)}.main{grid-column:2/3;grid-row:2/3;overflow:auto;padding:14px}.panel{background:var(--panel);border:1px solid var(--border);border-radius:12px;box-shadow:0 2px 8px #0001;margin-bottom:12px;overflow:hidden}.panel-head{background:var(--panel2);padding:8px 10px;display:flex;align-items:center;gap:8px;border-bottom:1px solid var(--border);font-weight:bold}.panel-actions{margin-left:auto;display:flex;gap:5px}.win-btn{height:28px;border:1px solid var(--border);background:#fff;border-radius:5px;cursor:pointer}.panel-body{padding:12px}.tabs{display:flex;gap:4px;border-bottom:1px solid var(--border);margin-bottom:12px;overflow:auto}.tab{border:1px solid var(--border);background:var(--panel2);padding:8px 12px;border-radius:7px 7px 0 0;cursor:pointer;white-space:nowrap}.tab.active{background:#fff;border-bottom-color:#fff;font-weight:bold;color:var(--primary)}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px}.stat{background:#fff;border:1px solid var(--border);border-radius:10px;padding:12px}.stat .v{font-size:24px;font-weight:800;color:var(--primary)}.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}.btn{border:1px solid var(--border);background:var(--panel2);padding:8px 12px;border-radius:8px;font-weight:700;cursor:pointer}.btn.primary{background:var(--primary);color:#fff}.btn.danger{background:var(--err)}.btn.active{outline:3px solid #b8d4ff}.data-wrap{overflow:auto;border:1px solid var(--border);border-radius:8px;max-height:55vh}.data-table{width:100%;border-collapse:collapse;background:#fff}.data-table th{background:#d9edf7;text-align:left;padding:7px;border:1px solid var(--border);white-space:nowrap;position:sticky;top:0}.data-table td{padding:7px;border:1px solid var(--border);vertical-align:middle}.plant-photo{width:54px;height:54px;border-radius:8px;object-fit:cover;border:1px solid var(--border)}.badge{display:inline-block;border-radius:6px;padding:2px 8px;font-weight:700}.ok{background:#dcfce7}.warn{background:#fff3cd}.err{background:#f8d7da}.form-grid{display:grid;grid-template-columns:170px 1fr 170px 1fr;gap:10px 12px}.label{font-weight:600}.label.req:after{content:' *';color:red}.control{padding:8px 9px;border:1px solid var(--border);border-radius:7px;background:#fff;min-width:0;width:100%}.control.req{background:var(--required);border-left:4px solid var(--accent)}.control:focus{outline:none;background:var(--active);border-color:var(--primary)}.task-card{display:grid;grid-template-columns:70px 1fr auto;gap:12px;align-items:center;border:1px solid var(--border);border-radius:10px;padding:10px;margin-bottom:8px;background:#fff}.task-actions{display:flex;gap:6px;flex-wrap:wrap}.hidden{display:none!important}.bottom{grid-column:1/3;grid-row:3/4;background:#fff;border-top:1px solid var(--border);display:flex;align-items:center;justify-content:center;gap:8px;z-index:8;flex-wrap:wrap}.message{grid-column:1/3;grid-row:4/5;background:var(--info);border-top:1px solid var(--border);font-size:13px;padding:6px 12px}.status{grid-column:1/3;grid-row:5/6;background:#e8eef2;font-size:12px;color:#667085;padding:5px 12px;display:flex;justify-content:space-between}.mobile-round{display:none}.calendar{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}.cal-head,.cal-day{border:1px solid var(--border);border-radius:8px;padding:7px;min-height:72px;background:#fff}.cal-head{min-height:auto;text-align:center;font-weight:bold;background:var(--panel2)}
 @media(max-width:900px){.app{grid-template-columns:58px 1fr}.greet,.pinboard,.head-btn span{display:none}.form-grid{grid-template-columns:1fr}.sidebar{width:58px}.sidebar .nav-text,.sidebar .info-box,.quick-icons,.divider,.side-title{display:none}.sidebar .nav-item{justify-content:center;padding-left:0;padding-right:0}.side-controls{grid-template-columns:42px;padding:6px 8px}.side-btn{width:42px}.main{padding:8px}.bottom{height:auto}.task-card{grid-template-columns:60px 1fr}.task-actions{grid-column:1/3}.desktop-only{display:none}.mobile-round{display:block}}
@@ -33,7 +33,7 @@ body{padding-top:var(--global-header-h);overflow:hidden}.global-header{position:
 
 .photo-assistant{display:grid;grid-template-columns:minmax(240px,420px) 1fr;gap:18px;align-items:start;margin-top:14px}.capture-image{width:100%;max-height:520px;object-fit:contain;border:1px solid #bfd2c5;border-radius:10px;background:#f7faf8}.library-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}.species-card{border:1px solid #c7d8cc;border-radius:10px;background:#fff;overflow:hidden}.species-card img{width:100%;height:180px;object-fit:cover}.species-card .body{padding:10px}.species-card h4{margin:0 0 5px}.species-card small{display:block;color:#4d6557;margin:3px 0}.confidence{font-weight:700}.phase{display:inline-block;padding:3px 7px;border-radius:10px;background:#edf5e9;margin-top:5px}@media(max-width:760px){.photo-assistant{grid-template-columns:1fr}.species-card img{height:220px}}
 
-/* NavigationCore V0.2.6 – verbindliche Arbeitsbereichstrennung und iPad-Fix */
+/* NavigationCore V0.2.9 – verbindliche Arbeitsbereichstrennung und iPad-Fix */
 .app{
   grid-template-columns:var(--sidebar-open) minmax(0,1fr)!important;
 }
@@ -145,6 +145,51 @@ body{padding-top:var(--global-header-h);overflow:hidden}.global-header{position:
   .sidebar-handle{right:-34px!important}
 }
 
+
+/* V0.2.9 – nur Menüordnung, kein Umbau des NavigationCore */
+.nav-section-label{
+  padding:9px 11px 5px;
+  margin-top:5px;
+  color:#9fb5ca;
+  font-size:11px;
+  font-weight:900;
+  letter-spacing:.45px;
+  text-transform:uppercase;
+  pointer-events:none;
+}
+.nav-section-label:first-child{margin-top:0}
+.weather-location-results{display:grid;gap:6px;margin-top:8px}
+.weather-result,.weather-location-row{
+  display:grid;grid-template-columns:minmax(0,1fr) auto;
+  gap:8px;align-items:center;border:1px solid var(--border);
+  border-radius:9px;padding:8px;background:#fff
+}
+.weather-location-row.active{
+  border-color:var(--primary);background:#eef8f0;
+  box-shadow:inset 4px 0 0 var(--primary)
+}
+.weather-location-actions{display:flex;gap:5px;flex-wrap:wrap}
+@media(max-width:760px){
+  .weather-result,.weather-location-row{grid-template-columns:1fr}
+}
+
+
+/* V0.2.9 – Wetterort kompakt und Pflegekalender eindeutig */
+.weather-compact{display:grid;grid-template-columns:minmax(220px,1fr) minmax(260px,1fr);gap:12px;align-items:start}
+.weather-box{border:1px solid var(--border);border-radius:10px;padding:10px;background:#fff}
+.weather-source{font-size:12px;color:var(--muted);margin-top:6px}
+.cal-day{cursor:pointer;overflow:hidden}
+.cal-day:hover{outline:2px solid #9bc4a7}
+.cal-day.selected{outline:3px solid var(--primary)}
+.cal-events{display:grid;gap:3px;margin-top:5px}
+.cal-event{font-size:10px;line-height:1.2;padding:3px 4px;border-radius:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cal-event.water{background:#dbeafe}
+.cal-event.feed{background:#fef3c7}
+.day-task{display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:10px;align-items:center;border:1px solid var(--border);border-radius:9px;padding:8px;margin-bottom:7px;background:#fff}
+.day-task img{width:52px;height:52px;object-fit:cover;border-radius:7px}
+.day-task .kind{font-weight:900}
+@media(max-width:850px){.weather-compact{grid-template-columns:1fr}.day-task{grid-template-columns:48px 1fr}.day-task .task-action{grid-column:1/-1}}
+
 </style>
 </head>
 <body>
@@ -230,46 +275,79 @@ body{padding-top:var(--global-header-h);overflow:hidden}.global-header{position:
 <div class="panel" style="margin-top:16px"><div class="panel-head">🔎 Dünger-Abdeckungsprüfung</div>
 <div class="panel-body" id="fertilizerGapBody"></div></div>
 </div></section></section>
-<section id="calendar" class="view hidden"><section class="panel"><div class="panel-head">📅 Pflegekalender</div><div class="panel-body"><div class="toolbar"><button class="btn" onclick="changeMonth(-1)">◀</button><button class="btn" id="monthTitle"></button><button class="btn" onclick="changeMonth(1)">▶</button><button class="btn primary" onclick="exportICS()">Kalender exportieren (.ics)</button><button class="btn" onclick="window.print()">PDF / Drucken</button></div><div class="calendar" id="calendarGrid"></div></div></section></section>
+<section id="calendar" class="view hidden"><section class="panel"><div class="panel-head">📅 Pflegekalender</div><div class="panel-body"><div class="toolbar"><button class="btn" onclick="changeMonth(-1)">◀</button><button class="btn" id="monthTitle"></button><button class="btn" onclick="changeMonth(1)">▶</button><button class="btn primary" onclick="exportICS()">Kalender exportieren (.ics)</button><button class="btn" onclick="window.print()">PDF / Drucken</button></div><div class="calendar" id="calendarGrid"></div>
+<div class="panel" style="margin-top:12px"><div class="panel-head">Tagesdetails</div><div class="panel-body" id="calendarDayDetails"><div class="subtle">Einen Kalendertag anklicken, um Pflanzen, Tätigkeit, Menge und Dünger anzuzeigen.</div></div></div>
+</div></section></section>
 <section id="settings" class="view hidden"><section class="panel"><div class="panel-head">⚙️ Grundeinstellungen</div><div class="panel-body"><div class="form-grid">
 <div class="label">Benutzername</div><input id="sUser" class="control" value="Hans"><div class="label">Standard-Gießzeit</div><input id="sTime" class="control" type="time" value="09:00">
 <div class="label">Saisonautomatik</div><label><input id="sSeason" type="checkbox" checked> Aktiv</label><div class="label">Wetterprüfung</div><label><input id="sWeather" type="checkbox"> für Außen- und Gewächshauspflanzen aktiv</label>
-<fieldset class="fieldset"><legend>Wetterort</legend><div class="form-grid"><div class="label">Ort / PLZ</div><input id="sWeatherPlace" class="control" placeholder="z. B. 59368 Werne"><div class="label">Koordinaten</div><div class="inline"><input id="sLat" class="control" placeholder="Breitengrad"><input id="sLon" class="control" placeholder="Längengrad"><button class="btn" type="button" onclick="locateDevice()">📍 Gerät</button></div></div><div class="toolbar"><button class="btn" type="button" onclick="resolveWeatherPlace()">Ort suchen</button><button class="btn" type="button" onclick="refreshWeather()">Wetter testen</button></div></fieldset>
+<fieldset class="fieldset"><legend>Wetterorte</legend>
+<div class="recommendation"><b>Datenquelle:</b> Die Orte und Koordinaten werden online über den Open-Meteo-Geocodingdienst gesucht. Im Programm ist keine vollständige Ortsdatenbank gespeichert. Bei „59368 Werne“ probiert die Suche automatisch PLZ, Ortsname und Kombination.</div>
+<div class="weather-compact">
+<div class="weather-box">
+  <b>1. Ort suchen</b>
+  <label class="label req" for="sWeatherPlace">Ort / PLZ</label>
+  <input id="sWeatherPlace" class="control req" placeholder="z. B. 59368 Werne" onkeydown="if(event.key==='Enter'){event.preventDefault();resolveWeatherPlace()}">
+  <div id="weatherSearchStatus" class="weather-source">Noch keine Suche ausgeführt.</div>
+  <div class="toolbar" style="margin-top:8px"><button class="btn primary" type="button" onclick="resolveWeatherPlace()">🔎 Ort suchen</button><button class="btn" type="button" onclick="locateDevice()">📍 Geräteposition</button></div>
+  <div id="weatherSearchResults" class="weather-location-results"></div>
+</div>
+<div class="weather-box">
+  <b>2. Ausgewählten Ort speichern</b>
+  <div class="form-grid" style="grid-template-columns:110px 1fr">
+    <div class="label">Breitengrad</div><input id="sLat" class="control" placeholder="z. B. 51.664" inputmode="decimal">
+    <div class="label">Längengrad</div><input id="sLon" class="control" placeholder="z. B. 7.634" inputmode="decimal">
+  </div>
+  <div class="toolbar" style="margin-top:8px"><button class="btn primary" type="button" onclick="saveWeatherLocation()">＋ Ort anlegen</button><button class="btn" type="button" onclick="refreshWeather(true)">🌦️ Wetter testen</button></div>
+  <div id="weatherSelectionInfo" class="weather-source">Erst einen Treffer auswählen.</div>
+</div>
+</div>
+<div class="panel" style="margin-top:10px"><div class="panel-head">Gespeicherte Wetterorte</div><div class="panel-body" id="weatherLocationList"></div></div>
+</fieldset>
 <fieldset class="fieldset"><legend>Pflegbare Standortarten</legend><div class="inline"><input id="newLocationType" class="control" placeholder="Neue Standortart" style="max-width:320px"><button class="btn primary" type="button" onclick="addLocationType()">Hinzufügen</button></div><div id="locationTypeList" class="location-type-list"></div></fieldset>
 </div><div class="toolbar" style="margin-top:14px"><button class="btn primary" onclick="saveSettings()">Speichern</button></div></div></section></section>
 <section id="qa" class="view hidden"><section class="panel"><div class="panel-head">🧪 Systemcheck / QA</div><div class="panel-body"><div class="data-wrap"><table class="data-table"><thead><tr><th>Prüfung</th><th>Status</th><th>Nachweis</th></tr></thead><tbody id="qaRows"></tbody></table></div></div></section></section>
 </main>
-<div class="bottom"><button class="btn" onclick="openPlantForm()">Neu</button><button class="btn danger" onclick="deletePlant()">Löschen</button><button class="btn" onclick="renderAll()">Aktualisieren</button><button class="btn" onclick="showView('dashboard')">Abbrechen</button><button class="btn" onclick="window.print()">Druck/PDF</button><button class="btn primary" onclick="showView('dashboard')">Tagesrunde</button></div><div class="message" id="message">PflanzenPflege V0.2.6 · bereit.</div><div class="status"><span id="statusLeft">Status: CANDIDATE</span><span>Runtime-Bindings aktiv · LocalStorage aktiv · Release noch nicht freigegeben</span></div></div>
+<div class="bottom"><button class="btn" onclick="openPlantForm()">Neu</button><button class="btn danger" onclick="deletePlant()">Löschen</button><button class="btn" onclick="renderAll()">Aktualisieren</button><button class="btn" onclick="showView('dashboard')">Abbrechen</button><button class="btn" onclick="window.print()">Druck/PDF</button><button class="btn primary" onclick="showView('dashboard')">Tagesrunde</button></div><div class="message" id="message">PflanzenPflege V0.2.9 · bereit.</div><div class="status"><span id="statusLeft">Status: CANDIDATE</span><span>Runtime-Bindings aktiv · LocalStorage aktiv · Release noch nicht freigegeben</span></div></div>
 <script>
-(()=>{'use strict';if(window.__PFLANZENPFLEGE_V026)return;window.__PFLANZENPFLEGE_V026=true;
+(()=>{'use strict';if(window.__PFLANZENPFLEGE_V029)return;window.__PFLANZENPFLEGE_V029=true;
 const $=id=>document.getElementById(id),KEY='PF_V012_STATE';let currentPhoto='',calendarDate=new Date();
-const seed={settings:{user:'Hans',time:'09:00',season:true,weather:false,weatherPlace:'',lat:'',lon:'',locationTypes:['Haus / Wohnung','Wintergarten','Gewächshaus','Terrasse','Balkon','Garten','Vorgarten','Hochbeet','Keller / Winterquartier','Büro','sonstiger Standort']},fertilizers:[
+const seed={settings:{user:'Hans',time:'09:00',season:true,weather:false,weatherPlace:'',lat:'',lon:'',activeWeatherLocationId:'',weatherLocations:[],locationTypes:['Haus / Wohnung','Wintergarten','Gewächshaus','Terrasse','Balkon','Garten','Vorgarten','Hochbeet','Keller / Winterquartier','Büro','sonstiger Standort']},fertilizers:[
 {id:'f1',name:'FloraSelf BlühpflanzenDünger',npk:'6-6-6 + Spurennährstoffe',dose:'Zimmerpflanzen: ¼ Dosierkappe auf 5 L Gießwasser; Balkon/Freiland: 1 Dosierkappe auf 5 L',season:'März–Oktober 1× wöchentlich; Wintermonate 1× monatlich',stock:'1 L · Fotoetikett bestätigt'},
 {id:'f2',name:'COMPO Grünpflanzen- und Palmendünger',npk:'Etikett-Nährstofftabelle noch nicht vollständig erfasst',dose:'Dosierkappe nach Markierung: I/1 L, II/2 L, III/3 L, volle Kappe/5 L Wasser',season:'März–Oktober 1× pro Woche; November–Februar 1× pro Monat',stock:'1 L · Fotoetikett bestätigt'},
-{id:'f3',name:'COMPO BIO Kräuterdünger',npk:'100 % natürliche und vegane Inhaltsstoffe',dose:'Dosierkappe nach Markierung: I/1 L, II/1,5 L, III/2 L, volle Kappe/3,5 L Wasser',season:'März–Oktober 1× pro Woche; November–Februar 2× pro Monat',stock:'0,5 L · Fotoetikett bestätigt'}],plants:[{id:'p1',name:'Dipladenia Terrasse',botanical:'Mandevilla',location:'Terrasse',locationType:'Terrasse',position:'Kübel',direction:'Südwest',windowDistance:'',heater:'nein',weatherExposure:'ungeschützt',light:'sonnig',waterDays:3,amount:'1,2 Liter',seasonWater:{spring:{days:5,amount:'900 ml'},summer:{days:3,amount:'1,2 Liter'},autumn:{days:6,amount:'700 ml'},winter:{days:12,amount:'350 ml'}},weatherControl:true,waterMode:'weather',fertilizer:'f1',feedDays:7,note:'Obere 2–3 cm Erde prüfen. Staunässe vermeiden.',lastWater:dateOffset(-2),lastFeed:dateOffset(-6),photo:svgPhoto('Dipladenia','🌺')},{id:'p2',name:'Monstera Wohnzimmer',botanical:'Monstera deliciosa',location:'Wohnzimmer',locationType:'Haus / Wohnung',position:'Fensterbank',direction:'Ost',windowDistance:'10 cm',heater:'ja',weatherExposure:'vollständig überdacht',light:'hell ohne direkte Sonne',waterDays:7,amount:'700 ml',seasonWater:{spring:{days:7,amount:'700 ml'},summer:{days:5,amount:'800 ml'},autumn:{days:8,amount:'600 ml'},winter:{days:12,amount:'450 ml'}},weatherControl:false,waterMode:'need',fertilizer:'f2',feedDays:14,note:'Erde antrocknen lassen, Blätter regelmäßig reinigen.',lastWater:dateOffset(-6),lastFeed:dateOffset(-10),photo:svgPhoto('Monstera','🌿')},{id:'p3',name:'Orchidee Küche',botanical:'Phalaenopsis',location:'Küche',locationType:'Haus / Wohnung',position:'Fensterbank',direction:'Nordost',windowDistance:'0 cm',heater:'nein',weatherExposure:'vollständig überdacht',light:'hell ohne direkte Sonne',waterDays:8,amount:'Tauchen 10 Min.',seasonWater:{spring:{days:8,amount:'Tauchen 10 Min.'},summer:{days:7,amount:'Tauchen 10 Min.'},autumn:{days:9,amount:'Tauchen 10 Min.'},winter:{days:12,amount:'Tauchen 8 Min.'}},weatherControl:false,waterMode:'need',fertilizer:'f3',feedDays:14,note:'Kein Wasser im Herz stehen lassen.',lastWater:dateOffset(-7),lastFeed:dateOffset(-14),photo:svgPhoto('Orchidee','🌸')}],history:[]};
+{id:'f3',name:'COMPO BIO Kräuterdünger',npk:'100 % natürliche und vegane Inhaltsstoffe',dose:'Dosierkappe nach Markierung: I/1 L, II/1,5 L, III/2 L, volle Kappe/3,5 L Wasser',season:'März–Oktober 1× pro Woche; November–Februar 2× pro Monat',stock:'0,5 L · Fotoetikett bestätigt'}],plants:[],history:[]};
 function dateOffset(d){const x=new Date();x.setDate(x.getDate()+d);return x.toISOString().slice(0,10)}function svgPhoto(t,e){return 'data:image/svg+xml;charset=utf-8,'+encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="240" height="180"><rect width="100%" height="100%" fill="#e8f4ea"/><text x="50%" y="43%" text-anchor="middle" font-size="58">${e}</text><text x="50%" y="78%" text-anchor="middle" font-family="Arial" font-size="18" fill="#235b3a">${t}</text></svg>`)}
 function load(){try{return JSON.parse(localStorage.getItem(KEY))||structuredClone(seed)}catch{return structuredClone(seed)}}let state=load();function save(){localStorage.setItem(KEY,JSON.stringify(state))}function esc(v){return String(v??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]))}
-const navGroups=[
- {id:'overview',title:'Übersicht',icon:'▣',items:[['dashboard','🏠','Dashboard'],['dashboard','✅','Tagesrunde'],['calendar','📅','Kalender']]},
- {id:'stock',title:'Pflanzenbestand',icon:'🌿',items:[['plants','🌱','Pflanzen'],['library','📚','Pflanzenbibliothek'],['photoCapture','📷','Fotos erfassen'],['plants','📍','Standorte']]},
- {id:'care',title:'Pflegeplanung',icon:'💧',items:[['watering','💧','Gießplan'],['fertilizing','🧪','Düngeplan'],['fertilizers','🧴','Dünger'],['plants','🩺','Probleme / Journal']]},
- {id:'output',title:'Ausgabe',icon:'📤',items:[['calendar','🖨','Druck / PDF'],['calendar','📤','Kalenderexport']]},
- {id:'system',title:'System',icon:'⚙️',items:[['settings','⚙️','Einstellungen'],['settings','💾','Datensicherung'],['qa','🛡️','Systemcheck']]}
+const navSections=[
+ {title:'Übersicht',items:[
+  ['dashboard','🏠','Dashboard'],
+  ['dashboard','✅','Tagesrunde'],
+  ['calendar','📅','Kalender']
+ ]},
+ {title:'Pflanzenbestand',items:[
+  ['plants','🌱','Pflanzen'],
+  ['photoCapture','📷','Foto-Erfassung'],
+  ['library','📚','Pflanzenbibliothek'],
+  ['plants','📍','Standorte']
+ ]},
+ {title:'Pflege',items:[
+  ['watering','💧','Gießplan'],
+  ['fertilizing','🧪','Düngeplan'],
+  ['fertilizers','🧴','Dünger'],
+  ['plants','🩺','Probleme / Journal']
+ ]},
+ {title:'Ausgabe',items:[
+  ['calendar','🖨️','Druck / PDF'],
+  ['calendar','📤','Kalenderexport']
+ ]},
+ {title:'System',items:[
+  ['settings','⚙️','Einstellungen'],
+  ['qa','🛡️','Systemcheck']
+ ]}
 ];
-function toggleNavGroup(id){
- const el=document.querySelector(`.nav-group[data-group="${id}"]`);
- if(!el)return;
- el.classList.toggle('collapsed');
- const collapsed=[...document.querySelectorAll('.nav-group.collapsed')].map(x=>x.dataset.group);
- localStorage.setItem('PF_NAV_GROUPS_COLLAPSED',JSON.stringify(collapsed));
-}
 function renderNav(){
- let collapsed=[];try{collapsed=JSON.parse(localStorage.getItem('PF_NAV_GROUPS_COLLAPSED')||'[]')}catch{}
  let first=true;
- $('nav').innerHTML=navGroups.map(g=>`<section class="nav-group ${collapsed.includes(g.id)?'collapsed':''}" data-group="${g.id}">
- <button class="nav-group-button" type="button" onclick="toggleNavGroup('${g.id}')"><span>${g.icon}</span><span class="nav-text">${g.title}</span><span class="group-arrow">▾</span></button>
- <div class="nav-group-items">${g.items.map(n=>`<div class="nav-item ${first?(first=false,'active'):''}" data-view="${n[0]}" onclick="showView('${n[0]}',this)"><span>${n[1]}</span><span class="nav-text">${n[2]}</span></div>`).join('')}</div>
- </section>`).join('')
+ $('nav').innerHTML=navSections.map(s=>`<div class="nav-section-label">${s.title}</div>${s.items.map(n=>`<div class="nav-item ${first?(first=false,'active'):''}" data-view="${n[0]}" onclick="showView('${n[0]}',this)"><span>${n[1]}</span><span class="nav-text">${n[2]}</span></div>`).join('')}`).join('')
 }
 window.showView=(id,el)=>{document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));$(id).classList.remove('hidden');document.querySelectorAll('.nav-item').forEach(n=>n.classList.toggle('active',n===el));renderAll();msg('Ansicht geöffnet: '+id)};
 function due(last,days){const d=new Date(last+'T12:00:00');d.setDate(d.getDate()+Number(days||0));return d}function daysUntil(d){return Math.ceil((d-new Date())/86400000)}function isDue(last,days){return daysUntil(due(last,days))<=0}function tasks(type){return state.plants.filter(p=>type==='water'?isDue(p.lastWater,seasonProfile(p).days):p.feedDays>0&&isDue(p.lastFeed,p.feedDays))}
@@ -290,20 +368,154 @@ window.openCompass=()=>{$('compassBox').classList.remove('hidden');$('compassBox
 window.startCompass=async()=>{try{if(typeof DeviceOrientationEvent!=='undefined'&&typeof DeviceOrientationEvent.requestPermission==='function'){const r=await DeviceOrientationEvent.requestPermission();if(r!=='granted')throw new Error('Sensorfreigabe nicht erteilt')}orientationHandler=e=>{let h=typeof e.webkitCompassHeading==='number'?e.webkitCompassHeading:(typeof e.alpha==='number'?(360-e.alpha)%360:null);if(h==null)return;compassHeading=Math.round(h);$('compassArrow').style.transform=`rotate(${compassHeading}deg)`;$('compassReading').textContent=`${compassHeading}° · ${headingName(compassHeading)}`;$('compassHint').textContent='Messung aktiv – Gerät ruhig halten.'};window.addEventListener('deviceorientationabsolute',orientationHandler,true);window.addEventListener('deviceorientation',orientationHandler,true);$('compassHint').textContent='Sensor gestartet. Gerät zum Fenster ausrichten.'}catch(e){$('compassHint').textContent='Kompass nicht verfügbar: '+e.message+' – Himmelsrichtung manuell wählen.'}};
 window.useCompass=()=>{if(compassHeading==null)return msg('Noch kein Kompasswert vorhanden.');$('fDirection').value=headingName(compassHeading);msg(`Himmelsrichtung ${headingName(compassHeading)} (${compassHeading}°) übernommen.`)};
 function wateringRecommendation(){const w=state.weather;if(!w)return 'Noch keine Wetterdaten vorhanden.';let text=[];if(w.max>=30)text.push('Hitze: Außen- und Gewächshauspflanzen heute zusätzlich prüfen.');else if(w.max>=25)text.push('Warmer Tag: Sommerintervalle und Bodenfeuchte beachten.');if(w.rain>=10)text.push('Stärkerer Regen: ungeschützte Gartenpflanzen vor dem Gießen kontrollieren.');else if(w.rain>=3)text.push('Regen möglich: Außenpflanzen nur nach Bodenprüfung gießen.');if(w.frost)text.push('Frostgefahr: empfindliche Pflanzen schützen.');return text.join(' ')||'Normale Wetterlage: planmäßige Pflege nach Saisonprofil.'}
-window.resolveWeatherPlace=async()=>{const q=$('sWeatherPlace').value.trim();if(!q)return msg('Bitte Ort oder Postleitzahl eingeben.');try{const r=await fetch(`https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(q)}&count=5&language=de&format=json`);const j=await r.json();if(!j.results?.length)throw new Error('Ort nicht gefunden');const x=j.results[0];$('sLat').value=x.latitude;$('sLon').value=x.longitude;$('sWeatherPlace').value=[x.name,x.admin1].filter(Boolean).join(', ');msg('Wetterort gefunden. Bitte Einstellungen speichern.')}catch(e){msg('Ortssuche fehlgeschlagen: '+e.message)}};
-window.locateDevice=()=>{if(!navigator.geolocation)return msg('Standorterfassung auf diesem Gerät nicht verfügbar.');navigator.geolocation.getCurrentPosition(p=>{$('sLat').value=p.coords.latitude.toFixed(6);$('sLon').value=p.coords.longitude.toFixed(6);msg('Geräteposition übernommen. Bitte Einstellungen speichern.')},e=>msg('Standorterfassung fehlgeschlagen: '+e.message),{enableHighAccuracy:true,timeout:12000})};
-window.refreshWeather=async()=>{const lat=Number(state.settings.lat||$('sLat')?.value),lon=Number(state.settings.lon||$('sLon')?.value);if(!lat||!lon){msg('Wetterort mit Koordinaten fehlt.');showView('settings');return}try{const url=`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_probability_max&timezone=auto&forecast_days=7`;const r=await fetch(url);if(!r.ok)throw new Error('HTTP '+r.status);const j=await r.json();state.weather={at:new Date().toISOString(),temp:j.current.temperature_2m,feels:j.current.apparent_temperature,humidity:j.current.relative_humidity_2m,wind:j.current.wind_speed_10m,max:j.daily.temperature_2m_max[0],min:j.daily.temperature_2m_min[0],rain:j.daily.precipitation_sum[0],rainProb:j.daily.precipitation_probability_max[0],frost:Math.min(...j.daily.temperature_2m_min.slice(0,3))<=1,daily:j.daily};save();renderWeather();msg('Wetterdaten aktualisiert.')}catch(e){msg('Wetterabfrage fehlgeschlagen: '+e.message)}};
+function normalizeCoordinate(v){return String(v??'').trim().replace(',','.')}
+function weatherFields(){return{place:$('sWeatherPlace')?.value.trim()||'',lat:normalizeCoordinate($('sLat')?.value),lon:normalizeCoordinate($('sLon')?.value)}}
+window.resolveWeatherPlace=async()=>{
+ const raw=$('sWeatherPlace').value.trim(),status=$('weatherSearchStatus'),box=$('weatherSearchResults');
+ box.innerHTML='';$('weatherSelectionInfo').textContent='Erst einen Treffer auswählen.';
+ if(!raw){msg('Bitte Ort oder Postleitzahl eingeben.');return}
+ status.textContent='Ort wird online gesucht …';
+ const postal=(raw.match(/\b\d{5}\b/)||[])[0]||'';
+ const city=raw.replace(/\b\d{5}\b/g,'').replace(/[,;]+/g,' ').trim();
+ const queries=[raw,city,postal].filter((x,i,a)=>x&&a.indexOf(x)===i);
+ try{
+  const all=[];
+  for(const q of queries){
+   const r=await fetch(`https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(q)}&count=10&language=de&format=json`,{cache:'no-store'});
+   if(!r.ok)continue;
+   const j=await r.json();
+   (j.results||[]).forEach(x=>{
+    const key=`${x.latitude}|${x.longitude}`;
+    if(!all.some(y=>`${y.latitude}|${y.longitude}`===key))all.push(x)
+   });
+  }
+  let results=all;
+  if(postal)results=results.sort((a,b)=>Number(!(a.postcodes||[]).includes(postal))-Number(!(b.postcodes||[]).includes(postal)));
+  if(city)results=results.sort((a,b)=>Number(!String(a.name).toLowerCase().includes(city.toLowerCase()))-Number(!String(b.name).toLowerCase().includes(city.toLowerCase())));
+  if(!results.length)throw new Error('Kein passender Ort gefunden');
+  window.__weatherSearchResults=results.slice(0,12);
+  status.textContent=`${window.__weatherSearchResults.length} Treffer aus Online-Ortssuche.`;
+  box.innerHTML=window.__weatherSearchResults.map((x,i)=>{
+   const label=[x.name,(x.postcodes||[])[0],x.admin1,x.country].filter(Boolean).join(' · ');
+   return `<div class="weather-result"><div><b>${esc(x.name)}</b><br><small>${esc(label)} · ${Number(x.latitude).toFixed(4)}, ${Number(x.longitude).toFixed(4)}</small></div><button class="btn" type="button" onclick="selectWeatherResult(${i})">Übernehmen</button></div>`
+  }).join('')
+ }catch(err){
+  status.textContent='Online-Suche fehlgeschlagen.';
+  box.innerHTML=`<div class="badge err">${esc(err.message)}. Alternativ „Geräteposition“ verwenden oder Koordinaten manuell eintragen.</div>`;
+  msg('Ortssuche fehlgeschlagen: '+err.message)
+ }
+};
+window.selectWeatherResult=i=>{
+ const x=window.__weatherSearchResults?.[i];if(!x)return;
+ const label=[x.name,x.admin1,x.country].filter(Boolean).join(', ');
+ $('sWeatherPlace').value=label;
+ $('sLat').value=Number(x.latitude).toFixed(6);
+ $('sLon').value=Number(x.longitude).toFixed(6);
+ $('weatherSearchResults').innerHTML=`<div class="badge ok">Ausgewählt: ${esc(label)}. Jetzt „Ort anlegen“ drücken.</div>`;
+ $('weatherSearchStatus').textContent='';
+ msg('Wetterort ausgewählt.')
+};
+window.saveWeatherLocation=()=>{
+ const f=weatherFields(),lat=Number(f.lat),lon=Number(f.lon);
+ if(!f.place||!Number.isFinite(lat)||!Number.isFinite(lon))return msg('Bitte zuerst einen Ort suchen und auswählen.');
+ if(lat<-90||lat>90||lon<-180||lon>180)return msg('Koordinaten ungültig.');
+ state.settings.weatherLocations=Array.isArray(state.settings.weatherLocations)?state.settings.weatherLocations:[];
+ let x=state.settings.weatherLocations.find(w=>Math.abs(Number(w.lat)-lat)<.00001&&Math.abs(Number(w.lon)-lon)<.00001);
+ if(x)x.name=f.place;
+ else{x={id:'wl'+Date.now(),name:f.place,lat:String(lat),lon:String(lon)};state.settings.weatherLocations.push(x)}
+ state.settings.activeWeatherLocationId=x.id;
+ state.settings.weatherPlace=x.name;state.settings.lat=x.lat;state.settings.lon=x.lon;
+ save();renderWeatherLocations();renderWeather();msg(`Wetterort „${x.name}“ angelegt und aktiviert.`)
+};
+window.activateWeatherLocation=id=>{
+ const x=(state.settings.weatherLocations||[]).find(w=>w.id===id);if(!x)return;
+ Object.assign(state.settings,{activeWeatherLocationId:id,weatherPlace:x.name,lat:x.lat,lon:x.lon});
+ $('sWeatherPlace').value=x.name;$('sLat').value=x.lat;$('sLon').value=x.lon;
+ save();renderWeatherLocations();renderWeather();msg(`Aktiver Wetterort: ${x.name}`)
+};
+window.deleteWeatherLocation=id=>{
+ const x=(state.settings.weatherLocations||[]).find(w=>w.id===id);
+ if(!x||!confirm(`Wetterort „${x.name}“ löschen?`))return;
+ state.settings.weatherLocations=state.settings.weatherLocations.filter(w=>w.id!==id);
+ if(state.settings.activeWeatherLocationId===id){
+  const n=state.settings.weatherLocations[0];
+  Object.assign(state.settings,{activeWeatherLocationId:n?.id||'',weatherPlace:n?.name||'',lat:n?.lat||'',lon:n?.lon||''})
+ }
+ save();renderWeatherLocations();msg('Wetterort gelöscht.')
+};
+function renderWeatherLocations(){
+ const el=$('weatherLocationList');if(!el)return;
+ const list=state.settings.weatherLocations||[];
+ el.innerHTML=list.length?list.map(x=>`<div class="weather-location-row ${x.id===state.settings.activeWeatherLocationId?'active':''}"><div><b>${esc(x.name)}</b><br><small>${esc(x.lat)}, ${esc(x.lon)} ${x.id===state.settings.activeWeatherLocationId?'· aktiv':''}</small></div><div class="weather-location-actions"><button class="btn primary" type="button" onclick="activateWeatherLocation('${x.id}')">Aktivieren</button><button class="btn danger" type="button" onclick="deleteWeatherLocation('${x.id}')">Löschen</button></div></div>`).join(''):'<div class="subtle">Noch kein Wetterort angelegt.</div>'
+}
+window.locateDevice=()=>{
+ if(!navigator.geolocation)return msg('Standorterfassung nicht verfügbar.');
+ msg('Geräteposition wird ermittelt …');
+ navigator.geolocation.getCurrentPosition(p=>{
+  $('sLat').value=p.coords.latitude.toFixed(6);$('sLon').value=p.coords.longitude.toFixed(6);
+  if(!$('sWeatherPlace').value.trim())$('sWeatherPlace').value='Aktueller Gerätestandort';
+  $('weatherSearchResults').innerHTML='<div class="badge ok">Geräteposition übernommen. Jetzt „Ort anlegen“ drücken.</div>';
+  msg('Geräteposition übernommen.')
+ },err=>msg('Standorterfassung fehlgeschlagen: '+err.message),{enableHighAccuracy:true,timeout:15000,maximumAge:60000})
+};
+window.refreshWeather=async(useForm=false)=>{
+ const f=weatherFields(),lat=Number(useForm?f.lat:(state.settings.lat||f.lat)),lon=Number(useForm?f.lon:(state.settings.lon||f.lon));
+ if(!Number.isFinite(lat)||!Number.isFinite(lon)){msg('Kein gültiger Wetterort aktiv.');showView('settings');return}
+ try{
+  msg('Wetterdaten werden geladen …');
+  const r=await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_probability_max&timezone=auto&forecast_days=7`,{cache:'no-store'});
+  if(!r.ok)throw new Error('HTTP '+r.status);
+  const j=await r.json();if(!j.current||!j.daily)throw new Error('Unvollständige Wetterantwort');
+  state.weather={at:new Date().toISOString(),place:useForm?f.place:state.settings.weatherPlace,temp:j.current.temperature_2m,feels:j.current.apparent_temperature,humidity:j.current.relative_humidity_2m,wind:j.current.wind_speed_10m,max:j.daily.temperature_2m_max[0],min:j.daily.temperature_2m_min[0],rain:j.daily.precipitation_sum[0],rainProb:j.daily.precipitation_probability_max[0],frost:Math.min(...j.daily.temperature_2m_min.slice(0,3))<=1,daily:j.daily};
+  save();renderWeather();msg('Wetter erfolgreich geladen.')
+ }catch(err){msg('Wetterabfrage fehlgeschlagen: '+err.message)}
+};
 function renderWeather(){const el=$('weatherSummary'),w=state.weather;if(!el)return;if(!w){el.innerHTML='<div class="weather-item"><strong>—</strong><span>noch nicht abgefragt</span></div>';return}el.innerHTML=`<div class="weather-item"><strong>${w.temp} °C</strong><span>aktuell · gefühlt ${w.feels} °C</span></div><div class="weather-item"><strong>${w.max} / ${w.min} °C</strong><span>heute max. / min.</span></div><div class="weather-item"><strong>${w.rain} mm</strong><span>Niederschlag · ${w.rainProb}% Wahrscheinlichkeit</span></div><div class="weather-item"><strong>${w.humidity}%</strong><span>Luftfeuchte · Wind ${w.wind} km/h</span></div>`;$('weatherRecommendation').textContent=wateringRecommendation()}
 window.addLocationType=()=>{const v=$('newLocationType').value.trim();if(!v)return;if(!state.settings.locationTypes.includes(v))state.settings.locationTypes.push(v);$('newLocationType').value='';save();renderLocationTypeList();msg('Standortart hinzugefügt.')};window.removeLocationType=i=>{if(!confirm('Standortart wirklich entfernen? Bestehende Pflanzendaten bleiben erhalten.'))return;state.settings.locationTypes.splice(i,1);save();renderLocationTypeList()};function renderLocationTypeList(){$('locationTypeList')&&($('locationTypeList').innerHTML=state.settings.locationTypes.map((x,i)=>`<span class="location-chip">${esc(x)} <button type="button" onclick="removeLocationType(${i})" title="Entfernen">×</button></span>`).join(''))}
 
 function renderFertilizers(){ $('fFertilizer').innerHTML='<option value="">Kein Dünger</option>'+state.fertilizers.map(f=>`<option value="${f.id}">${esc(f.name)}</option>`).join('');$('fertilizerRows').innerHTML=state.fertilizers.map(f=>`<tr><td>${esc(f.name)}</td><td>${esc(f.npk)}</td><td>${esc(f.dose)}</td><td>${esc(f.season)}</td><td>${esc(f.stock)}</td><td><button class="btn" onclick="editFertilizer('${f.id}')">Bearbeiten</button></td></tr>`).join('')}
 window.addFertilizer=()=>editFertilizer('');window.editFertilizer=id=>{const f=state.fertilizers.find(x=>x.id===id)||{};const name=prompt('Name des Düngers',f.name||'');if(!name)return;const obj={id:f.id||'f'+Date.now(),name,npk:prompt('NPK-Wert',f.npk||''),dose:prompt('Dosierung',f.dose||''),season:prompt('Anwendungszeitraum',f.season||''),stock:prompt('Bestand',f.stock||'')};if(f.id)Object.assign(f,obj);else state.fertilizers.push(obj);save();renderAll();msg('Dünger-Stammdaten gespeichert.')};
-function renderCalendar(){const y=calendarDate.getFullYear(),m=calendarDate.getMonth();$('monthTitle').textContent=new Intl.DateTimeFormat('de-DE',{month:'long',year:'numeric'}).format(calendarDate);const heads=['Mo','Di','Mi','Do','Fr','Sa','So'].map(x=>`<div class="cal-head">${x}</div>`);const first=new Date(y,m,1),offset=(first.getDay()+6)%7,days=new Date(y,m+1,0).getDate();let cells=[...heads];for(let i=0;i<offset;i++)cells.push('<div></div>');for(let d=1;d<=days;d++){const date=new Date(y,m,d),iso=date.toISOString().slice(0,10);let w=0,f=0;state.plants.forEach(p=>{if(nextOccurrences(p.lastWater,p.waterDays,y,m).includes(iso))w++;if(p.feedDays&&nextOccurrences(p.lastFeed,p.feedDays,y,m).includes(iso))f++});cells.push(`<div class="cal-day"><b>${d}</b><br><small>${w?'💧 '+w:''} ${f?'🧪 '+f:''}</small></div>`)}$('calendarGrid').innerHTML=cells.join('')}
+function calendarEventsForDate(iso){
+ const events=[];
+ state.plants.forEach(p=>{
+  const waterInt=seasonProfile(p).days;
+  if(nextOccurrences(p.lastWater,waterInt,new Date(iso+'T12:00:00').getFullYear(),new Date(iso+'T12:00:00').getMonth()).includes(iso)){
+   events.push({type:'water',plant:p,detail:seasonProfile(p).amount||'Menge prüfen'})
+  }
+  if(p.feedDays&&nextOccurrences(p.lastFeed,p.feedDays,new Date(iso+'T12:00:00').getFullYear(),new Date(iso+'T12:00:00').getMonth()).includes(iso)){
+   const f=state.fertilizers.find(x=>x.id===p.fertilizer);
+   events.push({type:'feed',plant:p,detail:f?`${f.name} · ${f.dose}`:'Kein passender Dünger zugeordnet'})
+  }
+ });
+ return events
+}
+function renderCalendar(){
+ const y=calendarDate.getFullYear(),m=calendarDate.getMonth();
+ $('monthTitle').textContent=new Intl.DateTimeFormat('de-DE',{month:'long',year:'numeric'}).format(calendarDate);
+ const heads=['Mo','Di','Mi','Do','Fr','Sa','So'].map(x=>`<div class="cal-head">${x}</div>`);
+ const first=new Date(y,m,1),offset=(first.getDay()+6)%7,days=new Date(y,m+1,0).getDate();
+ let cells=[...heads];
+ for(let i=0;i<offset;i++)cells.push('<div></div>');
+ for(let d=1;d<=days;d++){
+  const iso=new Date(y,m,d,12).toISOString().slice(0,10),events=calendarEventsForDate(iso);
+  const visible=events.slice(0,3).map(e=>`<div class="cal-event ${e.type}" title="${esc(e.plant.name)}">${e.type==='water'?'💧':'🧪'} ${esc(e.plant.name)}</div>`).join('');
+  const more=events.length>3?`<small>+ ${events.length-3} weitere</small>`:'';
+  cells.push(`<div class="cal-day" data-date="${iso}" onclick="showCalendarDay('${iso}',this)"><b>${d}</b><div class="cal-events">${visible}${more}</div></div>`)
+ }
+ $('calendarGrid').innerHTML=cells.join('');
+ const today=new Date().toISOString().slice(0,10);
+ if(y===new Date().getFullYear()&&m===new Date().getMonth())showCalendarDay(today,document.querySelector(`.cal-day[data-date="${today}"]`))
+}
+window.showCalendarDay=(iso,el)=>{
+ document.querySelectorAll('.cal-day').forEach(x=>x.classList.toggle('selected',x===el));
+ const events=calendarEventsForDate(iso),dateLabel=new Date(iso+'T12:00:00').toLocaleDateString('de-DE',{weekday:'long',day:'2-digit',month:'2-digit',year:'numeric'});
+ $('calendarDayDetails').innerHTML=`<h3 style="margin-top:0">${dateLabel}</h3>`+(events.length?events.map(e=>`<div class="day-task"><img src="${e.plant.photo}"><div><div class="kind">${e.type==='water'?'💧 Gießen':'🧪 Düngen'} · ${esc(e.plant.name)}</div><small>📍 ${esc(e.plant.location)} · ${esc(e.plant.position||'')}</small><br><small>${esc(e.detail)}</small></div><button class="btn primary task-action" onclick="completeTask('${e.plant.id}','${e.type}')">✓ Gemacht</button></div>`).join(''):'<div class="badge ok">Keine Pflegeaufgabe an diesem Tag.</div>')
+};
 function nextOccurrences(last,interval,y,m){const out=[],end=new Date(y,m+1,0),d=due(last,interval);while(d<=end){if(d.getFullYear()===y&&d.getMonth()===m)out.push(d.toISOString().slice(0,10));d.setDate(d.getDate()+Number(interval))}return out}window.changeMonth=n=>{calendarDate.setMonth(calendarDate.getMonth()+n);renderCalendar()};
-window.exportICS=()=>{let lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//PflanzenPflege//DE','CALSCALE:GREGORIAN'];state.plants.forEach(p=>{[['water',seasonProfile(p).days,'Pflanze gießen'],['feed',p.feedDays,'Pflanze düngen']].forEach(([type,intv,title])=>{if(!intv)return;const start=due(type==='water'?p.lastWater:p.lastFeed,intv).toISOString().slice(0,10).replaceAll('-','');lines.push('BEGIN:VEVENT',`UID:${p.id}-${type}@pflanzenpflege`,`DTSTART;VALUE=DATE:${start}`,`SUMMARY:${title}: ${p.name}`,`DESCRIPTION:Standort ${p.location}. ${type==='water'?seasonProfile(p).amount:(state.fertilizers.find(x=>x.id===p.fertilizer)?.dose||'Dosierung prüfen')}`,`RRULE:FREQ=DAILY;INTERVAL=${intv}`,'END:VEVENT')})});lines.push('END:VCALENDAR');download('PflanzenPflege_Kalender.ics',lines.join('\r\n'),'text/calendar');msg('Kalenderdatei exportiert.')};
+window.exportICS=()=>{let lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//PflanzenPflege//DE','CALSCALE:GREGORIAN'];state.plants.forEach(p=>{[['water',seasonProfile(p).days,'Pflanze gießen'],['feed',p.feedDays,'Pflanze düngen']].forEach(([type,intv,title])=>{if(!intv)return;const start=due(type==='water'?p.lastWater:p.lastFeed,intv).toISOString().slice(0,10).replaceAll('-','');lines.push('BEGIN:VEVENT',`UID:${p.id}-${type}@pflanzenpflege`,`DTSTART;VALUE=DATE:${start}`,`SUMMARY:${type==='water'?'Gießen':'Düngen'} – ${p.name}`,`DESCRIPTION:Pflanze: ${p.name}. Standort: ${p.location}, ${p.position||''}. Aufgabe: ${type==='water'?'Gießen, Menge '+seasonProfile(p).amount:'Düngen mit '+(state.fertilizers.find(x=>x.id===p.fertilizer)?.name||'nicht zugeordnet')+'. Dosierung: '+(state.fertilizers.find(x=>x.id===p.fertilizer)?.dose||'prüfen')}`,`RRULE:FREQ=DAILY;INTERVAL=${intv}`,'END:VEVENT')})});lines.push('END:VCALENDAR');download('PflanzenPflege_Kalender.ics',lines.join('\r\n'),'text/calendar');msg('Kalenderdatei exportiert.')};
 window.exportJson=()=>download('PflanzenPflege_Daten_V0_2_0.json',JSON.stringify(state,null,2),'application/json');window.importJson=e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{state=JSON.parse(r.result);save();renderAll();msg('Daten importiert.')}catch{msg('Import fehlgeschlagen.')}};r.readAsText(f)};function download(name,data,type){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([data],{type}));a.download=name;a.click();URL.revokeObjectURL(a.href)}
-window.saveSettings=()=>{state.settings.user=$('sUser').value||'Hans';state.settings.time=$('sTime').value||'09:00';state.settings.season=$('sSeason').checked;state.settings.weather=$('sWeather').checked;state.settings.weatherPlace=$('sWeatherPlace').value.trim();state.settings.lat=$('sLat').value.trim();state.settings.lon=$('sLon').value.trim();save();renderHeader();renderWeather();msg('Einstellungen einschließlich Wetterort gespeichert.')};function renderHeader(){const d=new Date(),h=d.getHours();$('hello').textContent=`${h<11?'Guten Morgen':h<18?'Guten Tag':'Guten Abend'} ${state.settings.user||'Hans'}`;$('today').textContent=d.toLocaleDateString('de-DE',{weekday:'long',day:'2-digit',month:'2-digit',year:'numeric'});$('clock').textContent=d.toLocaleTimeString('de-DE')}
-function renderQA(){const checks=[['Versionskonsistenz','OK','V0.2.6 zentral in Oberfläche und Paket'],['Guard-Flag','OK','__PFLANZENPFLEGE_V026 verhindert Mehrfachbindung'],['Standortarten','OK','pflegbare Combobox mit Innen-, Außen- und Gewächshauslogik'],['Saisonprofile','OK','vier getrennte Bewässerungsprofile je Pflanze'],['Wetterabfrage','CANDIDATE','Open-Meteo-Liveabfrage benötigt Internet und Geräteprüfung'],['Kompass','CANDIDATE','DeviceOrientation mit Berechtigungs- und manuellem Fallback'],['WindowCore-Bereich','OK','nicht überschrieben; Fachfenster nutzen bestehendes Muster'],['TableCore-Muster','OK','sticky Kopf, klare Tabellenstruktur, Aktionen'],['Pflichtfelder','OK','Name und Standort markiert und validiert'],['Datenspeicherung','OK','LocalStorage mit JSON Export/Import'],['Kalenderexport','OK','ICS mit wiederkehrenden Terminen'],['Druck/PDF','OK','druckoptimierte Tages-/Listenansicht'],['Responsive','OK','Handyansicht mit reduzierter Navigation'],['Pflegeberater','OK','artspezifischer Sommer-/Winter- und Düngerhinweis'],['Dünger-Abdeckung','OK','Bestandslücken werden separat ausgewiesen; Dosierung ohne Etikett gesperrt'],['Düngeretiketten V0.2.6','OK','drei Rückseitenfotos ausgewertet; Produktart, Rhythmus und Dosierkappenlogik übernommen'],['PWA-Manifest','OK','Standalone-App, Theme und iPhone-Metadaten vorhanden'],['Service Worker','OK','App-Shell und Pflanzenfotos für Offline-Start vorbereitet'],['Family-Test-Daten','OK','LocalStorage bleibt geräte- und browserlokal; keine Hans-Datenübertragung'],['GitHub-Pages-Paket','OK','publish-Verzeichnis direkt veröffentlichbar'],['NavigationCore V0.2.6','OK','Menüs in fünf fachliche, einklappbare Gruppen gegliedert'],['iPad-Arbeitsbereich','OK','Navigation, Aktionsleiste, Meldung und Status besitzen getrennte Grid-Spalten'],['Icon-Clipping','OK','Schnellzugriffe bleiben vollständig innerhalb der Sidebar'],['Release-Gate','CANDIDATE','Geräte- und Interaktionstest durch Nutzer noch offen']];$('qaRows').innerHTML=checks.map(x=>`<tr><td>${x[0]}</td><td><span class="badge ${x[1]==='OK'?'ok':'warn'}">${x[1]}</span></td><td>${x[2]}</td></tr>`).join('')}
+window.saveSettings=()=>{state.settings.user=$('sUser').value||'Hans';state.settings.time=$('sTime').value||'09:00';state.settings.season=$('sSeason').checked;state.settings.weather=$('sWeather').checked;const f=weatherFields();if(f.place)state.settings.weatherPlace=f.place;if(f.lat)state.settings.lat=f.lat;if(f.lon)state.settings.lon=f.lon;save();renderHeader();renderWeather();renderWeatherLocations();msg('Einstellungen gespeichert.')};function renderHeader(){const d=new Date(),h=d.getHours();$('hello').textContent=`${h<11?'Guten Morgen':h<18?'Guten Tag':'Guten Abend'} ${state.settings.user||'Hans'}`;$('today').textContent=d.toLocaleDateString('de-DE',{weekday:'long',day:'2-digit',month:'2-digit',year:'numeric'});$('clock').textContent=d.toLocaleTimeString('de-DE')}
+function renderQA(){const checks=[['Versionskonsistenz','OK','V0.2.9 zentral in Oberfläche und Paket'],['Guard-Flag','OK','__PFLANZENPFLEGE_V029 verhindert Mehrfachbindung'],['Standortarten','OK','pflegbare Combobox mit Innen-, Außen- und Gewächshauslogik'],['Saisonprofile','OK','vier getrennte Bewässerungsprofile je Pflanze'],['Wetterort-Suche','OK','Online-Geocoding mit kombinierter Suche aus PLZ, Ortsname und Eingabe'],['Kompass','CANDIDATE','DeviceOrientation mit Berechtigungs- und manuellem Fallback'],['WindowCore-Bereich','OK','nicht überschrieben; Fachfenster nutzen bestehendes Muster'],['TableCore-Muster','OK','sticky Kopf, klare Tabellenstruktur, Aktionen'],['Pflichtfelder','OK','Name und Standort markiert und validiert'],['Datenspeicherung','OK','LocalStorage mit JSON Export/Import'],['Kalenderexport','OK','ICS mit wiederkehrenden Terminen'],['Druck/PDF','OK','druckoptimierte Tages-/Listenansicht'],['Responsive','OK','Handyansicht mit reduzierter Navigation'],['Pflegeberater','OK','artspezifischer Sommer-/Winter- und Düngerhinweis'],['Dünger-Abdeckung','OK','Bestandslücken werden separat ausgewiesen; Dosierung ohne Etikett gesperrt'],['Düngeretiketten V0.2.9','OK','drei Rückseitenfotos ausgewertet; Produktart, Rhythmus und Dosierkappenlogik übernommen'],['PWA-Manifest','OK','Standalone-App, Theme und iPhone-Metadaten vorhanden'],['Service Worker','OK','App-Shell und Pflanzenfotos für Offline-Start vorbereitet'],['Echtbestand','OK','12 fotografierte Pflanzen statt Demo-Dipladenia, Demo-Monstera und Demo-Orchidee'],['GitHub-Pages-Paket','OK','publish-Verzeichnis direkt veröffentlichbar'],['NavigationCore V0.2.9','OK','Menüs in fünf fachliche, einklappbare Gruppen gegliedert'],['iPad-Arbeitsbereich','OK','Navigation, Aktionsleiste, Meldung und Status besitzen getrennte Grid-Spalten'],['Icon-Clipping','OK','Schnellzugriffe bleiben vollständig innerhalb der Sidebar'],['Release-Gate','CANDIDATE','Geräte- und Interaktionstest durch Nutzer noch offen']];$('qaRows').innerHTML=checks.map(x=>`<tr><td>${x[0]}</td><td><span class="badge ${x[1]==='OK'?'ok':'warn'}">${x[1]}</span></td><td>${x[2]}</td></tr>`).join('')}
 window.toggleSidebar=()=>document.documentElement.style.setProperty('--sidebar',getComputedStyle(document.documentElement).getPropertyValue('--sidebar').trim()==='270px'?'58px':'270px');function msg(t){$('message').textContent=t;$('statusLeft').textContent='Status: '+t}window.renderAll=()=>{renderHeader();renderStats();renderTasks();renderPlants();renderFertilizers();renderCalendar();renderQA();renderWeather();renderLocationTypeList();$('sUser').value=state.settings.user||'Hans';$('sTime').value=state.settings.time||'09:00';$('sSeason').checked=state.settings.season!==false;$('sWeather').checked=!!state.settings.weather;$('sWeatherPlace').value=state.settings.weatherPlace||'';$('sLat').value=state.settings.lat||'';$('sLon').value=state.settings.lon||''};
 const speciesLibrary=[
 {id:'croton',name:'Kroton / Wunderstrauch',botanical:'Codiaeum variegatum',confidence:94,photo:'assets/plants/01_kroton.jpg',water:[7,5,8,12],feed:14,fertilizer:'f2',note:'Hell bis sonnig; Erde leicht antrocknen lassen. Blattzustand beobachten.'},
@@ -319,12 +531,41 @@ const speciesLibrary=[
 {id:'peperomia',name:'Zwergpfeffer',botanical:'Peperomia obtusifolia',confidence:92,photo:'assets/plants/11_peperomia.jpg',water:[10,8,12,18],feed:28,fertilizer:'f2',note:'Fleischige Blätter speichern Wasser; deutlich sparsamer als Monstera gießen.'}
 ];
 const realStock=[['croton','Kroton Wohnzimmer','01_kroton.jpg','Beobachtung'],['pachira','Glückskastanie Wohnzimmer','02_pachira.jpg','Aktiv'],['zamioculcas','Glücksfeder Fenster','03_zamioculcas.jpg','Aktiv'],['olive','Olivenbaum Fenster','04_olive.jpg','Aktiv'],['areca','Palme Fenster','05_areca.jpg','Art prüfen'],['yucca','Yucca Sitzecke','06_yucca1.jpg','Aktiv'],['monstera','Monstera Bestand','07_monstera.jpg','Aktiv'],['oxalis','Glücksklee Fensterbank','08_oxalis.jpg','Pflegekontrolle'],['dracaena','Drachenbaum Fensterbank','09_dracaena.jpg','Art prüfen'],['ficus','Ginseng-Ficus Fensterbank','10_ficus.jpg','Aktiv'],['peperomia','Zwergpfeffer Fensterbank','11_peperomia.jpg','Aktiv'],['yucca','Yucca Wohnzimmer','12_yucca2.jpg','Aktiv']];
+
+function buildRealPlant(s,stock,index){
+ const seasons=['spring','summer','autumn','winter'],seasonWater={};
+ seasons.forEach((k,i)=>seasonWater[k]={days:s.water[i],amount:index===3?(i===1?'1,0 Liter':'700 ml'):(i===1?'700 ml':'500 ml')});
+ const loc=/Fensterbank|Fenster/.test(stock[1])?'Wohnzimmer Fensterbereich':'Wohnzimmer';
+ const pos=/Fensterbank/.test(stock[1])?'Fensterbank':(/Fenster/.test(stock[1])?'direkt am Fenster':'Boden');
+ return {
+  id:'real-'+String(index+1).padStart(2,'0'),speciesId:s.id,name:stock[1],botanical:s.botanical,
+  location:loc,locationType:'Haus / Wohnung',position:pos,direction:'noch festlegen',windowDistance:'',
+  heater:'nein',weatherExposure:'vollständig überdacht',light:s.id==='olive'?'sonnig':'hell ohne direkte Sonne',
+  waterDays:s.water[1],amount:seasonWater.summer.amount,seasonWater,weatherControl:false,waterMode:'need',
+  fertilizer:s.fertilizer||'',feedDays:s.feed,note:s.note,phase:stock[3],
+  lastWater:dateOffset(-(index%7)),lastFeed:dateOffset(-((index*3)%Math.max(1,s.feed))),
+  photo:`assets/plants/${stock[2]}`
+ }
+}
+function migrate029RealStock(){
+ const sampleNames=['Dipladenia Terrasse','Monstera Wohnzimmer','Orchidee Küche'];
+ state.plants=(state.plants||[]).filter(p=>!sampleNames.includes(p.name));
+ realStock.forEach((stock,i)=>{
+  const s=speciesLibrary.find(x=>x.id===stock[0]);
+  if(s&&!state.plants.some(p=>p.id==='real-'+String(i+1).padStart(2,'0')||p.photo===`assets/plants/${stock[2]}`)){
+   state.plants.push(buildRealPlant(s,stock,i))
+  }
+ });
+ state.settings.realStockV029=true;
+ save()
+}
+
 function migrate023Fertilizers(){
  const corrected=[
 {id:'f1',name:'FloraSelf BlühpflanzenDünger',npk:'6-6-6 + Spurennährstoffe',dose:'Zimmerpflanzen: ¼ Dosierkappe auf 5 L Gießwasser; Balkon/Freiland: 1 Dosierkappe auf 5 L',season:'März–Oktober 1× wöchentlich; Wintermonate 1× monatlich',stock:'1 L · Fotoetikett bestätigt'},
 {id:'f2',name:'COMPO Grünpflanzen- und Palmendünger',npk:'Etikett-Nährstofftabelle noch nicht vollständig erfasst',dose:'Dosierkappe: I/1 L, II/2 L, III/3 L, volle Kappe/5 L Wasser',season:'März–Oktober 1× pro Woche; November–Februar 1× pro Monat',stock:'1 L · Fotoetikett bestätigt'},
 {id:'f3',name:'COMPO BIO Kräuterdünger',npk:'100 % natürliche und vegane Inhaltsstoffe',dose:'Dosierkappe: I/1 L, II/1,5 L, III/2 L, volle Kappe/3,5 L Wasser',season:'März–Oktober 1× pro Woche; November–Februar 2× pro Monat',stock:'0,5 L · Fotoetikett bestätigt'}];
- if(!state.settings.fertilizerLabelsV026){state.fertilizers=corrected;state.settings.fertilizerLabelsV026=true;save();}
+ if(!state.settings.fertilizerLabelsV029){state.fertilizers=corrected;state.settings.fertilizerLabelsV029=true;save();}
 }
 
 function migrate021(){state.speciesLibrary=state.speciesLibrary||speciesLibrary;state.photoJournal=state.photoJournal||[];if(!state.settings.realStockPrepared)state.settings.realStockPrepared=true;state.plants.forEach(p=>{p.phase=p.phase||'Aktiv';p.speciesId=p.speciesId||''});save()}
@@ -372,13 +613,14 @@ function renderFertilizerGaps(){
  <div class="recommendation"><b>Sicherheitsregel:</b> Die Dosierung ist etikettbasiert hinterlegt. Wo das Foto keine ml-Zahl der Kappe sicher erkennen lässt, speichert das Programm bewusst die Hersteller-Markierung I/II/III/Kappe statt eine ml-Zahl zu erfinden.</div>`;
 }
 
-const _renderAll=window.renderAll;window.renderAll=()=>{_renderAll();renderLibrary();renderRealStock();renderFertilizerGaps()};
-migrate021();migrate023Fertilizers();
+const _renderAll=window.renderAll;window.renderAll=()=>{_renderAll();renderLibrary();renderRealStock();renderFertilizerGaps();renderWeatherLocations()};
+function migrate028(){state.settings.weatherLocations=Array.isArray(state.settings.weatherLocations)?state.settings.weatherLocations:[];if(!state.settings.activeWeatherLocationId&&state.settings.weatherPlace&&state.settings.lat&&state.settings.lon){const id='wl-migrated';state.settings.weatherLocations=[{id,name:state.settings.weatherPlace,lat:String(state.settings.lat),lon:String(state.settings.lon)},...state.settings.weatherLocations.filter(x=>x.id!==id)];state.settings.activeWeatherLocationId=id}save()}
+migrate021();migrate023Fertilizers();migrate028();migrate029RealStock();
 
 renderNav();renderAll();setInterval(renderHeader,1000);
 })();
 
-// Framework-Shell V0.2.6 – Kopfzeile und Navigation nach Dienstplan-Muster
+// Framework-Shell V0.2.9 – Kopfzeile und Navigation nach Dienstplan-Muster
 const shellApp=document.getElementById('app');
 function shellToggle(){shellApp.classList.toggle('quick');localStorage.setItem('PF_NAV_QUICK',shellApp.classList.contains('quick')?'1':'0')}
 if(localStorage.getItem('PF_NAV_QUICK')==='1')shellApp.classList.add('quick');
@@ -394,7 +636,7 @@ document.getElementById('ghInfo')?.addEventListener('click',()=>showView('qa'));
 document.getElementById('ghLock')?.addEventListener('click',()=>alert('PflanzenPflege wurde für diese Candidate-Version lokal gesperrt.'));
 document.getElementById('toggleMenus')?.addEventListener('click',()=>{document.getElementById('nav').classList.toggle('hidden')});
 
-// MobileCore/PWA V0.2.6 – additive Verteilungsschicht; Fachlogik und Framework-Shell bleiben unverändert.
+// MobileCore/PWA V0.2.9 – additive Verteilungsschicht; Fachlogik und Framework-Shell bleiben unverändert.
 window.addEventListener('load',()=>{
   if('serviceWorker' in navigator){
     navigator.serviceWorker.register('./service-worker.js').catch(err=>console.warn('Service Worker:',err));
