@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="260" viewBox="0 0 360 260">
+  <rect width="360" height="260" fill="#eef7ff"/>
+  <rect x="74" y="42" width="212" height="166" rx="18" fill="#e9edf2" stroke="#3d4f5f" stroke-width="6"/>
+  <rect x="232" y="24" width="42" height="34" rx="6" fill="#20262d"/>
+  <rect x="96" y="80" width="168" height="86" rx="8" fill="#9fd4f2" stroke="#e84436" stroke-width="5"/>
+  <text x="180" y="72" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#e84436">KEYZERS</text>
+  <text x="180" y="116" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#e84436">Dünger</text>
+  <text x="180" y="144" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="#2b5068">Universal · 5 l</text>
+  <text x="180" y="194" text-anchor="middle" font-family="Arial" font-size="15" fill="#2b5068">Spurennährstoffe · Etikett prüfen</text>
+</svg>

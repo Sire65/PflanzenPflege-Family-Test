@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="260" viewBox="0 0 360 260">
+  <rect width="360" height="260" fill="#edf8f0"/>
+  <rect x="104" y="24" width="152" height="210" rx="18" fill="#f7fbff" stroke="#267447" stroke-width="5"/>
+  <rect x="116" y="72" width="128" height="94" rx="8" fill="#e94353"/>
+  <text x="180" y="58" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#267447">FloraSelf</text>
+  <text x="180" y="112" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#fff">Blühpflanzen</text>
+  <text x="180" y="140" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#fff">Dünger</text>
+  <text x="180" y="194" text-anchor="middle" font-family="Arial" font-size="18" fill="#267447">NPK 6-6-6</text>
+</svg>

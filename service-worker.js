@@ -1,22 +1,31 @@
-const CACHE='pflanzenpflege-v0-2-9';
+﻿const CACHE='pflanzenpflege-v0-4-18';
 const ASSETS=[
   "./",
   "./index.html",
   "./manifest.webmanifest",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
-  "./assets/plants/01_kroton.jpg",
-  "./assets/plants/02_pachira.jpg",
-  "./assets/plants/03_zamioculcas.jpg",
-  "./assets/plants/04_olive.jpg",
-  "./assets/plants/05_areca.jpg",
-  "./assets/plants/06_yucca1.jpg",
-  "./assets/plants/07_monstera.jpg",
-  "./assets/plants/08_oxalis.jpg",
-  "./assets/plants/09_dracaena.jpg",
-  "./assets/plants/10_ficus.jpg",
-  "./assets/plants/11_peperomia.jpg",
-  "./assets/plants/12_yucca2.jpg"
+  "./assets/photos/plants/indoor/01_kroton.jpg",
+  "./assets/photos/plants/indoor/02_pachira.jpg",
+  "./assets/photos/plants/indoor/03_zamioculcas.jpg",
+  "./assets/photos/plants/indoor/04_olive.jpg",
+  "./assets/photos/plants/indoor/05_areca.jpg",
+  "./assets/photos/plants/indoor/06_yucca1.jpg",
+  "./assets/photos/plants/indoor/07_monstera.jpg",
+  "./assets/photos/plants/indoor/08_oxalis.jpg",
+  "./assets/photos/plants/indoor/09_dracaena.jpg",
+  "./assets/photos/plants/indoor/10_ficus.jpg",
+  "./assets/photos/plants/indoor/11_peperomia.jpg",
+  "./assets/photos/plants/indoor/12_yucca2.jpg",
+  "./assets/photos/plants/outdoor/13_rechts_vor_haus_mischkuebel.jpg",
+  "./assets/photos/plants/outdoor/14_links_vor_haus_wandelroeschen.jpg",
+  "./assets/photos/plants/outdoor/15_ganz_links_hornveilchen.jpg",
+  "./assets/photos/plants/outdoor/16_ganz_links_geranien.jpg",
+  "./assets/photos/fertilizers/floraself_bluehpflanzen.svg",
+  "./assets/photos/fertilizers/compo_gruenpflanzen_palmen.svg",
+  "./assets/photos/fertilizers/compo_bio_kraeuter.svg",
+  "./assets/photos/fertilizers/keyzers_universal_5l.svg",
+  "./assets/photos/fertilizers/keyzers_etikett.png"
 ];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
@@ -24,3 +33,14 @@ self.addEventListener('fetch',e=>{
  if(e.request.method!=='GET') return;
  e.respondWith(caches.match(e.request).then(hit=>hit||fetch(e.request).then(r=>{const copy=r.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));return r;}).catch(()=>caches.match('./index.html'))));
 });
+
+
+
+
+
+
+
+
+
+
+
