@@ -1,4 +1,4 @@
-﻿const CACHE='pflanzenpflege-v0-4-25';
+﻿const CACHE='pflanzenpflege-v0-7-1';
 const ASSETS=[
   "./",
   "./index.html",
@@ -25,7 +25,9 @@ const ASSETS=[
   "./assets/photos/fertilizers/compo_gruenpflanzen_palmen.svg",
   "./assets/photos/fertilizers/compo_bio_kraeuter.svg",
   "./assets/photos/fertilizers/keyzers_universal_5l.svg",
-  "./assets/photos/fertilizers/keyzers_etikett.png"
+  "./assets/photos/fertilizers/keyzers_etikett.png",
+  "./assets/photos/diagnosis/roses/rose_sternrusstau_beispiel_001.jpg",
+  "./assets/photos/office/gaertner_buero_001.png"
 ];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('message',e=>{if(e.data&&e.data.type==='SKIP_WAITING')self.skipWaiting()});
@@ -41,6 +43,18 @@ self.addEventListener('fetch',e=>{
  }
  e.respondWith(caches.match(e.request).then(hit=>hit||fetch(e.request).then(r=>{const copy=r.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));return r;}).catch(()=>caches.match('./index.html'))));
 });
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
