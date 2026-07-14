@@ -1,6 +1,6 @@
 ﻿{
-  "name": "PflanzenPflege Family Test",
-  "short_name": "PflanzenPflege",
+  "name": "PflanzenPflege V0.9.3",
+  "short_name": "Pflanzen V0.9.3",
   "description": "Pflanzen-, Gieß- und Düngepflege im Family-Test",
   "start_url": "./index.html",
   "scope": "./",
@@ -22,3 +22,4 @@
     }
   ]
 }
+

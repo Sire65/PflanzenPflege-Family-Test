@@ -1,10 +1,18 @@
-﻿const CACHE='pflanzenpflege-v0-7-1';
+﻿const CACHE='pflanzenpflege-v0-9-3';
 const ASSETS=[
   "./",
   "./index.html",
   "./manifest.webmanifest",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
+  "./modules/weather/weather-core.js",
+  "./modules/weather/frost-protection.js",
+  "./modules/weather/bloom-calendar.js",
+  "./modules/weather/plant-module-adapter.js",
+  "./modules/light/light-measurement-core.js",
+  "./modules/light/light-profile-engine.js",
+  "./modules/light/light-photo-analysis.js",
+  "./modules/light/plant-light-adapter.js",
   "./assets/photos/plants/indoor/01_kroton.jpg",
   "./assets/photos/plants/indoor/02_pachira.jpg",
   "./assets/photos/plants/indoor/03_zamioculcas.jpg",
@@ -43,6 +51,7 @@ self.addEventListener('fetch',e=>{
  }
  e.respondWith(caches.match(e.request).then(hit=>hit||fetch(e.request).then(r=>{const copy=r.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));return r;}).catch(()=>caches.match('./index.html'))));
 });
+
 
 
 
