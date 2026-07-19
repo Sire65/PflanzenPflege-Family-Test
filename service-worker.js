@@ -1,4 +1,4 @@
-const CACHE='pflanzenpflege-v0-9-4';
+﻿const CACHE='pflanzenpflege-v0-9-14';
 const ASSETS=[
   "./",
   "./index.html",
@@ -13,8 +13,6 @@ const ASSETS=[
   "./modules/light/light-profile-engine.js",
   "./modules/light/light-photo-analysis.js",
   "./modules/light/plant-light-adapter.js",
-  "./modules/plant-tuv/plant-tuv-core.js",
-  "./modules/plant-tuv/plant-tuv.css",
   "./assets/photos/plants/indoor/01_kroton.jpg",
   "./assets/photos/plants/indoor/02_pachira.jpg",
   "./assets/photos/plants/indoor/03_zamioculcas.jpg",
@@ -53,6 +51,18 @@ self.addEventListener('fetch',e=>{
  }
  e.respondWith(caches.match(e.request).then(hit=>hit||fetch(e.request).then(r=>{const copy=r.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));return r;}).catch(()=>caches.match('./index.html'))));
 });
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
